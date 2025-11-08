@@ -23,9 +23,3 @@ npm -v
 sudo npm install -g pm2
 pm2 -v
 
-
-## B) Create Deploy User (once)
-ssh root@31.97.61.6
-adduser rozgaruser
-usermod -aG sudo rozgaruser
-su - rozgaruser
